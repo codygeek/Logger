@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LOGIN SCREEN</string>
+    <string name="app_name">FACEBOOK LOGGER</string>
     <string name="facebook_app_id">1754365934707041</string>
     <string name="fb_login_protocol_scheme">fb1754365934707041</string>
 </resources>
