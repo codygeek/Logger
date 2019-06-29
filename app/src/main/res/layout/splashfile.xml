@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/com_facebook_blue"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logo_id"
+        android:layout_width="395dp"
+        android:layout_height="438dp"
+        android:src="@drawable/fbp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/logo_id"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="449dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/com_facebook_loading"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#ffffff"
+        android:textSize="42dp" />
+
+</RelativeLayout>
